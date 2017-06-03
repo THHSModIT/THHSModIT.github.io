@@ -306,6 +306,10 @@
   #msearch{
 	display:none;
   }
+  #footer>span{
+	color:#eee;
+	font-size: 14px;
+  }
     /* End Search */
   @media screen and (max-width: 760px) {
     div>input{
