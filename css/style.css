@@ -221,11 +221,12 @@
 	text-align:center;
   }
   .nav>ul {
+	padding: 0;
     text-decoration: none;
     display:inline;
-		-webkit-transition: height 2s ease-in-out 0;
-		transition: height 2s ease-in-out 0;
-		overflow: hidden;
+	-webkit-transition: height 2s ease-in-out 0;
+	transition: height 2s ease-in-out 0;
+	overflow: hidden;
   }
   .nav>ul>li{
     display:inline;
@@ -339,7 +340,6 @@
       margin-right:0;
     }
 	.nav>ul{
-		padding: 0;
 		margin: 0;
 		height: 0px;
 		display:none;
