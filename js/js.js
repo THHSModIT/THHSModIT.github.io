@@ -85,8 +85,8 @@
   }
   var shortening = false;
   var menuTime;
-  headertext = "<header><h1 class='label'><a href='/'>ModIT</a></h1><div id='bar'><aside class='site-description'>Modern Innovative Technology</aside><div id='searchdiv'><input type='search' id='searchbar' onkeydown='searchenter(event)'/><span id='search-button' onclick='search(\"searchbar\");'><i class='icon-search'></i></span></div></div><div class='nav'><a id='navopen'>Menu</a><ul id='menulinks'><li><a href='/'>Home</a></li><li><a href='/companies'>Companies</a></li><li><a href='/doc'>Documentation</a></li><li><a href='/about'>About</a></li><li id='msearch'><div id='msearchdiv'><input type='search' id='msearchbar' onkeydown='searchenter(event)'/><span id='msearch-button' onclick='search(\"searchbar\");'><i class='icon-search'></i></span></div></li></ul></div></header>";
-  getElem('header').innerHTML += headertext;
+  headertext = "";
+  //getElem('header').innerHTML += headertext;
   menubutton = getElem("navopen");
   menubutton.onclick = function(){
 	if(shortening){
