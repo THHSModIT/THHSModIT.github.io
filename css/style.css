@@ -145,9 +145,15 @@
 		align-items: center;
 		text-align:center;
 		justify-content:center;
+		
 	}
 	#image *{
 		color: #eee;
+	}
+	.slogan{
+		max-width: 50%;
+		font-family: Josefin Sans,Arial,sans-serif;
+		font-weight: 400;
 	}
 	.title{
 		font-size: 70px;
