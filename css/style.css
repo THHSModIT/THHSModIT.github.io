@@ -116,6 +116,7 @@
   }
   #image>img{
 		margin: 0 auto;
+		max-width: 100%;
 	}
   #image:after {
 		content:'';
