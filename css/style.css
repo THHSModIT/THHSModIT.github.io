@@ -109,6 +109,7 @@
   }
   #image{
 	width: 100%;
+	height: auto;
 	position:relative;
 	margin: 0;
 	padding: 0;
@@ -117,6 +118,7 @@
   #image>img{
 		margin: 0 auto;
 		max-width: 100%;
+		display:block;
 	}
   #image:after {
 		content:'';
