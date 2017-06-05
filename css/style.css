@@ -26,32 +26,12 @@
     line-height:1.2;
     color:#333;
   }
-  header{
-    margin-left: auto;
-    margin-right: auto;
-  }
-  header>div{
-    text-align:center;
-  }
-  aside{
-    display:inline;
-    font-size:15px;
-    margin-right: 50px;
-  }
-
   a{
     text-decoration:none;
     color:#3884c7;
   }
   a:hover{
     color:#3e94e0;
-  }
-  th,td{
-    width:33%;
-    padding: 6px 6px 6px 6px;
-    border-width: 0 0 1px 0;
-    border-color: #BBB;
-    border-style: solid;
   }
   #padding{
     padding: 50px 15px 0 15px;
