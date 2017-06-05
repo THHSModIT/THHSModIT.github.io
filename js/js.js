@@ -104,8 +104,25 @@
 	}
   }
 
+		//Copypasta from stackoverflow
+	// Opera 8.0+
+	var isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
 
-  
+	// Firefox 1.0+
+	var isFirefox = typeof InstallTrigger !== 'undefined';
+
+	// Safari 3.0+ "[object HTMLElementConstructor]" 
+	var isSafari = /constructor/i.test(window.HTMLElement) || (function (p) { return p.toString() === "[object SafariRemoteNotification]"; })(!window['safari'] || safari.pushNotification);
+
+	// Internet Explorer 6-11
+	var isIE = /*@cc_on!@*/false || !!document.documentMode;
+
+	// Edge 20+
+	var isEdge = !isIE && !!window.StyleMedia;
+
+	// Chrome 1+
+	var isChrome = !!window.chrome && !!window.chrome.webstore;
+
   window.onload=function(){
 	var links = document.getElementsByTagName('a');
 	for(var i = 0; i < links.length; i++){
@@ -114,7 +131,12 @@
 				sender = e.srcElement || e.target;
 				str = sender.value.replace(/^.*\/\/[^\/]+/, '');
 				elem = document.getElementsByName(str.substring(2,str.length))[0];
-				scrollTo(document.body, elem.offsetTop, 1000);
+				if(isFirefox){
+					scrollTo(document.documentElement, elem.offsetTop, 1000);
+				}
+				else{
+					scrollTo(document.body, elem.offsetTop, 1000);
+				}
 			}
 			links[i].value = links[i].href;
 			links[i].removeAttribute("href");
