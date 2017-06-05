@@ -264,7 +264,8 @@
   }
   .aboutimage{
 	 border-radius: 50%;
-	 max-width: 223px;
+	 width: 223px;
+	 height: 223px;
   }
   .dropdown{
 	display:inline-block;
