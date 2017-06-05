@@ -103,3 +103,45 @@
 		ml.style.height="auto";
 	}
   }
+
+
+  
+  window.onload=function(){
+	var links = document.getElementsByTagName('a');
+	for(var i = 0; i < links.length; i++){
+		if(links[i].href.replace(/^.*\/\/[^\/]+/, '').substring(0,2)=="/#"){
+			links[i].onclick = function(e){
+				sender = e.srcElement || e.target;
+				str = sender.value.replace(/^.*\/\/[^\/]+/, '');
+				elem = document.getElementsByName(str.substring(2,str.length))[0];
+				scrollTo(document.body, elem.offsetTop, 1000);
+			}
+			links[i].value = links[i].href;
+			links[i].removeAttribute("href");
+		}
+	}
+  }
+  function scrollTo(element, to, duration) {
+    var start = element.scrollTop,
+        change = to - start,
+        increment = 5;
+    var animateScroll = function(elapsedTime) {        
+        elapsedTime += increment;
+        var position = easeInOut(elapsedTime, start, change, duration);                        
+        element.scrollTop = position; 
+        if (elapsedTime < duration) {
+            setTimeout(function() {
+                animateScroll(elapsedTime);
+            }, increment);
+        }
+    };
+    animateScroll(0);
+}
+function easeInOut(currentTime, start, change, duration) {
+    currentTime /= duration / 2;
+    if (currentTime < 1) {
+        return change / 2 * currentTime * currentTime + start;
+    }
+    currentTime -= 1;
+    return -change / 2 * (currentTime * (currentTime - 2) - 1) + start;
+}
