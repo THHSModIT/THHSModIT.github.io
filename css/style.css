@@ -263,9 +263,13 @@
 	line-height: 40px;
   }
   .aboutimage{
-	 border-radius: 50%;
-	 width: 223px;
-	 height: 223px;
+	display: inline-block;
+	margin: 0;
+	border-radius: 50%;
+	width: auto;
+	height: auto;
+	max-width: 90%;
+	max-height: 223px;
   }
   .dropdown{
 	display:inline-block;
@@ -322,7 +326,7 @@
   }
   
     /* End Search */
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 900px) {
 	.aboutcontainer>div{
 		flex-basis: 100%;
 		max-width: 100%;
