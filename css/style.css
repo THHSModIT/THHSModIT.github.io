@@ -10,6 +10,7 @@
   *:after {
     box-sizing: inherit;
 	font-family: Josefin Slab,Rockwell,slab-serif,serif;
+	scroll-behavior: smooth;
   }
   body{
     line-height:1.6;
@@ -79,6 +80,7 @@
 	margin:0;
 	padding: 0;
 	width: 100%;
+	position: relative;
   }
   #front-heading{
     margin: 0 auto;
@@ -87,18 +89,23 @@
 	text-align: center;
   }
   #image{
+	position:relative;
+	max-height: 100vh;
+	background:url(/img/1.jpg) center center no-repeat; 
+	overflow:hidden; 
+	background-size: cover;
 	width: 100%;
 	height: auto;
-	position:relative;
-	margin: 0;
-	padding: 0;
 	text-align: center;
-	max-height: 100vh;
   }
+	.cont{
+		position: relative;
+		
+	}
   #image>img{
 	margin: 0 auto;
 	display:block;
-	visibility: hidden;
+	visibility: hidden;	
   }
   #image .after {
 		position:absolute;
@@ -323,6 +330,11 @@
 	font-family: "Josefin Sans",Arial,sans-serif;
 	font-weight: 600;
 	font-size: 14px;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select:none;
+	cursor:pointer;
   }
   
     /* End Search */

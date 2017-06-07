@@ -130,12 +130,13 @@
 			links[i].onclick = function(e){
 				sender = e.srcElement || e.target;
 				str = sender.value.replace(/^.*\/\/[^\/]+/, '');
-				elem = document.getElementsByName(str.substring(2,str.length))[0];
+				elem = document.getElementById(str.substring(2,str.length));
 				if(isFirefox){
-					scrollTo(document.documentElement, elem.offsetTop, 1000);
+					scrollTo(document.documentElement, elem.offsetTop, 400);
 				}
 				else{
-					scrollTo(document.body, elem.offsetTop, 1000);
+					scrollTo(document.body, elem.offsetTop,400);
+
 				}
 			}
 			links[i].value = links[i].href;
@@ -143,10 +144,11 @@
 		}
 	}
   }
+  
   function scrollTo(element, to, duration) {
     var start = element.scrollTop,
         change = to - start,
-        increment = 5;
+        increment = 1;
     var animateScroll = function(elapsedTime) {        
         elapsedTime += increment;
         var position = easeInOut(elapsedTime, start, change, duration);                        
@@ -160,10 +162,10 @@
     animateScroll(0);
 }
 function easeInOut(currentTime, start, change, duration) {
-    currentTime /= duration / 2;
+    currentTime *= 2 / duration;
     if (currentTime < 1) {
         return change / 2 * currentTime * currentTime + start;
     }
     currentTime -= 1;
-    return -change / 2 * (currentTime * (currentTime - 2) - 1) + start;
+    return start-change / 2 * (currentTime * (currentTime - 2) - 1);
 }
