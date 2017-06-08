@@ -63,47 +63,19 @@
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
   }
-  function getHeight(obj){
-	if(obj.offsetHeight) {
-		return obj.offsetHeight;
-	} else if(obj.style.pixelHeight) {
-		return obj.style.pixelHeight;
-	}
-  }
-  function shortenMenu(){
-	var elem = getElem('menulinks');
-	var h = getHeight(elem)-3;
-	if(h<=0){
-		elem.style.display="none";	
-		elem.style.height="0";
-		shortening = false;
-		clearInterval(menuTime);
-	}
-	else{
-		elem.style.height =  String(h)+"px";
-	}
-  }
-  var shortening = false;
-  var menuTime;
+  
   headertext = "";
   //getElem('header').innerHTML += headertext;
   menubutton = getElem("navopen");
   menubutton.onclick = function(){
-	if(shortening){
-		shortening = false;
-		clearInterval(menuTime);
-	}
 	var ml = getElem('menulinks');
-	if(ml.style.display=="block"){	
-		shortening = true;
-		menuTime = setInterval(shortenMenu, 1);
+	if(ml.className == "navopen"){	
+		ml.className = "navclosed";
 	}
 	else{
-		ml.style.display="block";
-		ml.style.height="auto";
+		ml.className = "navopen";
 	}
   }
-
 		//Copypasta from stackoverflow
 	// Opera 8.0+
 	var isOpera = (!!window.opr && !!opr.addons) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
@@ -124,6 +96,9 @@
 	var isChrome = !!window.chrome && !!window.chrome.webstore;
 
   window.onload=function(){
+	  if(getScrollXY()[1] > 0){
+			getElem("topbar").className = 'topbaractive';
+		}
 	var links = document.getElementsByTagName('a');
 	for(var i = 0; i < links.length; i++){
 		if(links[i].href.replace(/^.*\/\/[^\/]+/, '').substring(0,2)=="/#"){
@@ -135,37 +110,64 @@
 					scrollTo(document.documentElement, elem.offsetTop, 400);
 				}
 				else{
-					scrollTo(document.body, elem.offsetTop,400);
-
+					scrollTo(document.body, elem.offsetTop-80,400);
 				}
 			}
 			links[i].value = links[i].href;
 			links[i].removeAttribute("href");
 		}
 	}
-  }
-  
-  function scrollTo(element, to, duration) {
-    var start = element.scrollTop,
-        change = to - start,
-        increment = 1;
-    var animateScroll = function(elapsedTime) {        
-        elapsedTime += increment;
-        var position = easeInOut(elapsedTime, start, change, duration);                        
-        element.scrollTop = position; 
-        if (elapsedTime < duration) {
-            setTimeout(function() {
-                animateScroll(elapsedTime);
-            }, increment);
-        }
-    };
-    animateScroll(0);
-}
-function easeInOut(currentTime, start, change, duration) {
-    currentTime *= 2 / duration;
-    if (currentTime < 1) {
-        return change / 2 * currentTime * currentTime + start;
-    }
-    currentTime -= 1;
-    return start-change / 2 * (currentTime * (currentTime - 2) - 1);
-}
+	window.onscroll = function(){
+		if(getScrollXY()[1] > 0){
+			getElem("topbar").className = 'topbaractive';
+		}
+		else{
+			getElem("topbar").className = '';
+		}
+	};
+  };
+
+
+	function scrollTo(element, to, duration) {
+		var start = element.scrollTop,
+			change = to - start,
+			increment = 1;
+		var animateScroll = function(elapsedTime) {        
+			elapsedTime += increment;
+			var position = easeInOut(elapsedTime, start, change, duration);                        
+			element.scrollTop = position; 
+			if (elapsedTime < duration) {
+				setTimeout(function() {
+					animateScroll(elapsedTime);
+				}, increment);
+			}
+		};
+		animateScroll(0);
+	}
+	function easeInOut(currentTime, start, change, duration) {
+		currentTime *= 2 / duration;
+		if (currentTime < 1) {
+			return change / 2 * currentTime * currentTime + start;
+		}
+		currentTime -= 1;
+		return start-change / 2 * (currentTime * (currentTime - 2) - 1);
+	}
+
+	function getScrollXY() {
+	  var scrOfX = 0, scrOfY = 0;
+	  if( typeof( window.pageYOffset ) == 'number' ) {
+		//Netscape compliant
+		scrOfY = window.pageYOffset;
+		scrOfX = window.pageXOffset;
+	  } else if( document.body && ( document.body.scrollLeft || document.body.scrollTop ) ) {
+		//DOM compliant
+		scrOfY = document.body.scrollTop;
+		scrOfX = document.body.scrollLeft;
+	  } else if( document.documentElement && ( document.documentElement.scrollLeft || document.documentElement.scrollTop ) ) {
+		//IE6 standards compliant mode
+		scrOfY = document.documentElement.scrollTop;
+		scrOfX = document.documentElement.scrollLeft;
+	  }
+	  return [ scrOfX, scrOfY ];
+	}
+	
