@@ -97,7 +97,11 @@
 
 	var path = window.location.href.replace(/^.*\/\/[^\/]+/, '');
   window.onload=function(){
-		if(path != "/" || getScrollXY()[1] > 0){
+		
+		if(path != "/"){
+			getElem("topbar").className = 'topbaractive tbb';
+		}
+		else if(getScrollXY()[1] > 0){
 			getElem("topbar").className = 'topbaractive';
 		}
 	var links = document.getElementsByTagName('a');
@@ -119,7 +123,11 @@
 		}
 	}
 	window.onscroll = function(){
-		if(path != "/" || getScrollXY()[1] > 0){
+		
+		if(path != "/"){
+			getElem("topbar").className = 'topbaractive tbb';
+		}
+		else if(getScrollXY()[1] > 0){
 			getElem("topbar").className = 'topbaractive';
 		}
 		else{

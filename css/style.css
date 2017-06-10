@@ -182,6 +182,9 @@
 		background: #222 !important;
 		color: #fff !important;
 	}
+	.tbb{
+		transition: color 0s, background 0s;
+	}
 	#topbar:hover  hr,
 	.topbaractive hr{
 		border-color:transparent;
