@@ -171,23 +171,30 @@
 		position: fixed;
 		top: 0;
 		width: 100%;
-		transition: color 0.5s, background 0.5s;
-		background: transparent;
-		color: #eee;
+		background: #222;
+		color: #fff;
 		z-index: 9999;
 		font-family: Josefin Sans, Arial, sans-serif !important;
 	}
-	#topbar:hover,
+	#topbar hr{
+		border-color: transparent;
+	}
+	.topbarclear{
+		background: transparent !important;
+		color: #eee !important;
+		transition: color 0.5s, background 0.5s !important;
+	}
+	.topbarclear hr{
+		border-color: rgba(221, 221, 221, 0.5) !important;
+	}
+	.topbarclear:hover,
 	.topbaractive{
 		background: #222 !important;
 		color: #fff !important;
 	}
-	.tbb{
-		transition: color 0s, background 0s;
-	}
-	#topbar:hover  hr,
+	.topbarclear:hover  hr,
 	.topbaractive hr{
-		border-color:transparent;
+		border-color:transparent !important;
 	}
 	#topbar * {
 		background: transparent;

@@ -97,13 +97,6 @@
 
 	var path = window.location.href.replace(/^.*\/\/[^\/]+/, '');
   window.onload=function(){
-		
-		if(path != "/"){
-			getElem("topbar").className = 'topbaractive tbb';
-		}
-		else if(getScrollXY()[1] > 0){
-			getElem("topbar").className = 'topbaractive';
-		}
 	var links = document.getElementsByTagName('a');
 	for(var i = 0; i < links.length; i++){
 		if(links[i].href.replace(/^.*\/\/[^\/]+/, '').substring(0,2)=="/#"){
@@ -123,15 +116,13 @@
 		}
 	}
 	window.onscroll = function(){
-		
-		if(path != "/"){
-			getElem("topbar").className = 'topbaractive tbb';
-		}
-		else if(getScrollXY()[1] > 0){
-			getElem("topbar").className = 'topbaractive';
-		}
-		else{
-			getElem("topbar").className = '';
+		if(path=="/"){
+			if(getScrollXY()[1] > 0){
+				getElem("topbar").classList.add('topbaractive');
+			}
+			else{
+				getElem("topbar").classList.remove("topbaractive");
+			}
 		}
 	};
   };
