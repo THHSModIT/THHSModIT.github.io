@@ -36,11 +36,11 @@
 	a:hover {
 		color: #34a849;
 	}
-	p a{
+	#wrapper a{
 		border-bottom: 1px dashed currentColor;
 	}
 	p,
-	p a{
+	#wrapper a{
 		font-family: Josefin Sans, Arial, sans-serif;
 		font-weight: 400;
 		position: relative;
@@ -466,5 +466,10 @@
 		}
 		#wrapper{
 			padding-top: 55px;
+		}
+		.container{
+			max-width: 100%;
+			padding: 0 30px;
+			margin: 0;
 		}
 	}
