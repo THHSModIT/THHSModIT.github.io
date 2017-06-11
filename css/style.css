@@ -15,7 +15,7 @@
 		line-height: 1.6;
 		font-size: 18px;
 		background: #eee;
-		color: #333;
+		color: #222;
 		font-family: 'Helvetica', sans-serif;
 		position: relative;
 		margin: 0;
@@ -26,14 +26,24 @@
 	h2,
 	h3 {
 		line-height: 1.2;
-		color: #333;
+		color: #222;
+		font-weight: 600;
 	}
 	a {
 		text-decoration: none;
-		color: #3884c7;
+		color: #128e2e;
 	}
 	a:hover {
-		color: #3e94e0;
+		color: #34a849;
+	}
+	p a{
+		border-bottom: 1px dashed currentColor;
+	}
+	p,
+	p a{
+		font-family: Josefin Sans, Arial, sans-serif;
+		font-weight: 400;
+		position: relative;
 	}
 	#padding {
 		padding: 50px 15px 0 15px;
@@ -275,6 +285,11 @@
 		font-size: 15px;
 		font-family: Josefin Sans, Arial, sans-serif;
 		font-weight: 400;
+	}
+	.container{
+		max-width: 80%;
+		padding: 0 20px;
+		margin: 0 auto;
 	}
 	.aboutcontainer {
 		display: flex;
