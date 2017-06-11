@@ -429,7 +429,7 @@
 		}
 		#navopen {
 			display: block;
-			background: transparent;
+			background: #222;
 			color: #eee;
 			outline: none;
 			line-height: 55px;
@@ -489,6 +489,14 @@
 			display:flex;
 			align-items: center;
 			justify-content: center;
+		}
+		.topbarclear{
+			background: #222 !important;
+			color: #fff !important;
+			transition: color 0s, background 0s !important;
+		}
+		.topbarclear hr{
+			border-color: transparent !important;
 		}
 		.nav>ul>li>a:active,
 		.nav>ul>li:active {
