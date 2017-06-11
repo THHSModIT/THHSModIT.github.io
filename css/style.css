@@ -495,6 +495,9 @@
 			color: #fff !important;
 			transition: color 0s, background 0s !important;
 		}
+		.container h3{
+			color: #008952;
+		}
 		.topbarclear hr{
 			border-color: transparent !important;
 		}
