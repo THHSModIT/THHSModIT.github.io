@@ -170,4 +170,12 @@
 	  }
 	  return [ scrOfX, scrOfY ];
 	}
-	
+
+	function addMap(element){
+		var e = document.getElementById(element);
+		document.addEventListener('click', function(event) {
+		  if (!e.contains(event.target)) {
+			e.style.pointerEvents="auto";
+		  }
+		});
+	}
