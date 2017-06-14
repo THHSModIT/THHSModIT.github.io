@@ -29,6 +29,13 @@
 		color: #008952;
 		font-weight: 600;
 	}
+	.container h1,
+	.container h2,
+	.container h3{
+		letter-spacing: 1px;
+		-webkit-box-direction: normal;
+		-webkit-font-smoothing: antialiased;
+	}
 	a {
 		text-decoration: none;
 		color: #128e2e;
