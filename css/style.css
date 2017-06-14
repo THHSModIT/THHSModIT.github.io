@@ -365,8 +365,10 @@
 		background: #ccc;
 		width: 50%;
 		max-width: 50%;
+		text-align:center;
 	}
 	td{
+		text-align:center;
 		padding: 8px 16px;
 		font-family: "Josefin Sans", Arial, sans-serif;
 	}
