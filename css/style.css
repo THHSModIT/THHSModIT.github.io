@@ -164,7 +164,7 @@ i {
 		color: #fff;
 	}
 	.title {
-		font-size:30vw;
+		font-size:20vw;
 		margin: 0;
 		display: inline-block;
 	}
@@ -451,8 +451,8 @@ i {
 	}
 	
 	@media screen and (max-width: 900px) {
-		html{
-			font-size: 8px;
+		.title{
+			font-size:30vw;
 		}
 		.aboutcontainer>div {
 			flex-basis: 100%;
@@ -601,10 +601,5 @@ i {
 			width: 100%;
 			padding: 0;
 			margin: 0;
-		}
-	}
-	@media screen and (max-width: 400px) {
-		html{
-			font-size: 6px;
 		}
 	}
