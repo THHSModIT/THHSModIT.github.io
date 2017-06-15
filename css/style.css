@@ -164,7 +164,7 @@ i {
 		color: #fff;
 	}
 	.title {
-		font-size: 18rem;
+		font-size:30vw;
 		margin: 0;
 		display: inline-block;
 	}
@@ -172,16 +172,18 @@ i {
 		font-family: "Tw Cen MT Bold";
 		font-weight: 400;
 		letter-spacing: -1.6rem;
+		letter-spacing: -3vw;
 	}
 	.title>span:last-of-type{
 		font-weight: 200;
 		font-family: "Tw Cen MT";
-		padding-left: 1rem;
+		padding-left: 2vw;
 	}
 	.title i{
 		position: relative;
 		top: 0.1em;
 		letter-spacing: -1.6rem;
+		letter-spacing: -3vw;
 	}
 	.hline {
 		display: block;
@@ -447,6 +449,7 @@ i {
 	.mapwrap{
 		position: relative;
 	}
+	
 	@media screen and (max-width: 900px) {
 		html{
 			font-size: 8px;
@@ -598,5 +601,10 @@ i {
 			width: 100%;
 			padding: 0;
 			margin: 0;
+		}
+	}
+	@media screen and (max-width: 400px) {
+		html{
+			font-size: 6px;
 		}
 	}
