@@ -1,36 +1,35 @@
-	@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:400,600');
-	@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600');
+	@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400');
 	@import url('/css/font.min.css');
-@font-face {
-  font-family: 'icomoon';
-  src:  url('/fonts/icomoon.eot?cl1h8t');
-  src:  url('/fonts/icomoon.eot?cl1h8t#iefix') format('embedded-opentype'),
-    url('/fonts/icomoon.ttf?cl1h8t') format('truetype'),
-    url('/fonts/icomoon.woff?cl1h8t') format('woff'),
-    url('/fonts/icomoon.svg?cl1h8t#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+	@font-face {
+	  font-family: 'icomoon';
+	  src:  url('/fonts/icomoon.eot?cl1h8t');
+	  src:  url('/fonts/icomoon.eot?cl1h8t#iefix') format('embedded-opentype'),
+		url('/fonts/icomoon.ttf?cl1h8t') format('truetype'),
+		url('/fonts/icomoon.woff?cl1h8t') format('woff'),
+		url('/fonts/icomoon.svg?cl1h8t#icomoon') format('svg');
+	  font-weight: normal;
+	  font-style: normal;
+	}
 
-i {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
+	i {
+	  /* use !important to prevent issues with browser extensions that change fonts */
+	  font-family: 'icomoon' !important;
+	  speak: none;
+	  font-style: normal;
+	  font-weight: normal;
+	  font-variant: normal;
+	  text-transform: none;
+	  line-height: 1;
 
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+	  /* Better Font Rendering =========== */
+	  -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+	}
 
-.icon-gear:before {
-  content: "\e900";
-  top: 5px;
-}
+	.icon-gear:before {
+	  content: "\e900";
+	  top: 5px;
+	}
 
 
 
@@ -40,7 +39,7 @@ i {
 	}
 	* {
 		box-sizing: inherit;
-		font-family: Josefin Slab, Rockwell, slab-serif, serif;
+		font-family: Josefin sans, sans-serif, serif;
 	}
 	body {
 		line-height: 1.6;
@@ -61,7 +60,8 @@ i {
 	h3 {
 		line-height: 1.2;
 		color: #008952;
-		font-weight: 600;
+		font-weight: normal;
+		letter-spacing: 1px;
 	}
 	.container h1,
 	.container h2,
@@ -196,7 +196,7 @@ i {
 		position: relative;
 		display: inline-block;
 		letter-spacing: 1px;
-		font-weight: 600;
+		font-weight: normal;
 		-webkit-box-direction: normal;
 		-webkit-font-smoothing: antialiased;
 	}
@@ -380,7 +380,7 @@ i {
 		font-weight: 300;
 	}
 	.aboutcontainer span {
-		line-height: 40px;
+		line-height: 35px;
 	}
 	.aboutimage {
 		display: inline-block;
@@ -395,7 +395,7 @@ i {
 		padding: 11px 32px 10px 32px;
 		border-radius: 1000px;
 		font-family: "Josefin Sans", Arial, sans-serif;
-		font-weight: 600;
+		font-weight: 400;
 		font-size: 14px;
 		-ms-user-select: none;
 		-webkit-user-select: none;
@@ -424,6 +424,7 @@ i {
 		width: 50%;
 		max-width: 50%;
 		text-align:center;
+		font-weight: normal;
 	}
 	td{
 		text-align:center;
