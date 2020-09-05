@@ -449,6 +449,11 @@
 	.map{
 		position: relative;
 	}
+
+	#aboutpara{
+		text-align: center;
+	}
+
 	.mapdiv{
 		position: absolute;
 		top: 0;
