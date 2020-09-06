@@ -2,7 +2,9 @@
 	width: 70%;
 	margin: 10% auto;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 25;
 	color: black;
+	line-height: 125%;
 }
 
 .center{
