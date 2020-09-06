@@ -25,7 +25,7 @@ a:hover{
 }
 
 .centered {
-	position: relative;
+	position: absolute;
 	font-size: 100px;
 	color: #000;
 	font-weight: bolder;
