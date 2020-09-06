@@ -25,11 +25,17 @@ a:hover{
 }
 
 .centered {
-	position: absolute;
+	/*position: absolute;
 	font-size: 100px;
 	color: #000;
 	font-weight: bolder;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);*/
+	
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
 }
