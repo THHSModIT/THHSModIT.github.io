@@ -14,7 +14,7 @@
 	img {
 	    width: 100%;
 	    height: 300px;
-	    background-image: url('doggo.jpg');
+	    background-image: url('/binary.png');
 	    background-repeat: no-repeat;
 	    background-size: contain;
 	    border: 2px solid #e9385a;
