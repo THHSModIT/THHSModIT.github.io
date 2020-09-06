@@ -1,13 +1,13 @@
 #aboutpara{
 	text-align: center;
 	width: 50%;
-	margin-left: 10%;
+	margin-left: 400px;
 }
 
 .center{
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 0;
+	margin-right: 0;
 	width: 100%;	
 }
 
