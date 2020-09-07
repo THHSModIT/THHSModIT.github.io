@@ -46,7 +46,7 @@ a:hover{
 #appBackground {
 	position: relative;
 	background-image: url("../img/Townsend-Harris-High-School-01.jpg");
-  	\background-repeat:no-repeat
+  	background-repeat:no-repeat;
    	background-size:auto;
 	/*100% 100vh*/
 }
