@@ -41,3 +41,10 @@ a:hover{
 	text-align: center;
 	font-size: 60px;
 }
+
+#appBackground {
+    position: relative;
+    background-image: url(".../img/background.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100vh;
+}
