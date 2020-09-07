@@ -47,7 +47,7 @@ a:hover{
 	position: relative;
 	background-image: url("../img/Townsend-Harris-High-School-01.jpg");
   	background-repeat:no-repeat;
-   	background-size:auto;
+   	background-size:cover;
 	/*100% 100vh*/
 }
 
