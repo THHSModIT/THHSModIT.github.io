@@ -1,5 +1,5 @@
 #aboutpara{
-	width: 613px;
+	width: 50vw;
 	margin: 10% auto;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 18px;
@@ -40,13 +40,13 @@ a:hover{
 	top: 25%;
 	width: 100%;
 	text-align: center;
-	font-size: 12vw;
+	font-size: 10vw;
 }
 
 #appBackground {
 	position: relative;
 	background-image: url("../img/Townsend-Harris-High-School-01.jpg");
-  	background-repeat:no-repeat
+  	\background-repeat:no-repeat
    	background-size:auto;
 	/*100% 100vh*/
 }
