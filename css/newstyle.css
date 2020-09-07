@@ -34,8 +34,9 @@ a:hover{
 	transform: translate(-50%, -50%);*/
 	
 	position: absolute;
+	font-family: Arial Rounded MT Bold;
 	color: #000;
-	font-weight: bolder;
+	font-weight: 900;
 	top: 25%;
 	width: 100%;
 	text-align: center;
