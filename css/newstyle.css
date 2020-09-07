@@ -33,7 +33,7 @@ a:hover{
 	left: 50%;
 	transform: translate(-50%, -50%);*/
 	
-	position: absolute;
+	position: relative;
 	font-family: Arial Rounded MT Bold;
 	color: #000;
 	font-weight: 900;
