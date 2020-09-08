@@ -59,14 +59,15 @@ a:hover{
 	/*100% 100vh*/
 }
 
-.pythonres{color:#000;position:relative;font-family:Verdana;font-size:20px;margin-left:10vw;top:148px;text-align:center}
+.pythonres{color: #000;position: relative;font-family: Verdana;font-size: 20px;top: 140px;text-align: center;left: -34vw;font-weight: bold}
 .javares{color:#000;position:relative;font-family:Verdana;font-size:20px;margin-left:14vw;top:148px;text-align:center}
-.codingres0{color:#000;position:relative;font-family:Verdana;font-size: 16px; top: 124px; left: 10vw; text-align: center}
-.codingres1{color:#000;position:relative;font-family:Verdana;font-size: 16px; top: 100px; left: 10vw; text-align: center}
-.codingres2{color:#000;position:relative;font-family:Verdana;font-size: 16px; top: 76px; left: 10vw; text-align: center}
-.codingres3{color:#000;position:relative;font-family:Verdana;font-size: 16px; top: 124px; left: 14vw; text-align: center}
-.codingres4{color:#000;position:relative;font-family:Verdana;font-size: 16px; top: 100px; left: 14vw; text-align: center}
-.codingres5{color:#000;position:relative;font-family:Verdana;font-size: 16px; top: 76px; left: 14vw; text-align: center}
+
+.codingres{color:#000;position:relative;font-family:Verdana;font-size: 16px;text-align: center}
+
+.codingres0{top: 124px; left: 10vw;}
+.codingres1{top: 124px; left: 14vw;}
+.codingres2{top: 124px; left: 18vw;}
+
 
 .indeximg{
 	width:50%;
