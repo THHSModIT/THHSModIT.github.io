@@ -76,6 +76,7 @@ a:hover{
 	display:block;
 	float:right;
 	background-color:#A2AEBA;
+	overflow:scroll;
 	/*border-style:solid; border-top-size:150px; border-top-color:#A2AEBA; border-bottom-style:solid; border-bottom-size:150px; border-bottom-color:#A2AEBA">*/
 }
 .clearfoot{
