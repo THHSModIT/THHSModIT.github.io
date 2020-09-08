@@ -78,6 +78,9 @@ a:hover{
 	background-color:#A2AEBA;
 	/*border-style:solid; border-top-size:150px; border-top-color:#A2AEBA; border-bottom-style:solid; border-bottom-size:150px; border-bottom-color:#A2AEBA">*/
 }
+.clearfoot{
+	clear:both;	
+}
 
 a:hover{
 	background-color: #f7f0f0;
