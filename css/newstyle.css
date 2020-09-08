@@ -67,14 +67,19 @@ a:hover{
 }
 
 .indeximage{
-    width:55%;
-    margin-right:2%;
-    float: left;
+	width:55%;
+	margin-right:2%;
+	float: left;
 }
 .indexparagraph {
-    width:42%;
-    float: left;
+	width:42%;
+	float: left;
 }
 .clearfix{
-    clear:both
+	clear:both
+}
+a:hover{
+	background-color: #f7f0f0;
+	color: #000;
+	font-weight: bold;
 }
