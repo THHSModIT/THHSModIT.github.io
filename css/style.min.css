@@ -16,11 +16,13 @@
   object-fit: cover
 }
 .newimgclass2{
-  width:200px;
-  height:200px;
-  border-radius:50%;
-  left:700px;
-  object-fit: cover
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: absolute;
+  object-fit: cover;
+  margin-left: 235px;
+  margin-top: -250px;
 }
 
 
