@@ -1,5 +1,5 @@
 @media screen and (max-width: 600px) {
-  .stackthings{
+  #stackthings{
     position:relative;
     top: 0px;
     left: 50%;
