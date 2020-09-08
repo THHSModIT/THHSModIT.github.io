@@ -2,13 +2,13 @@
   #stackthings{
     position:relative;
     top: 0px;
-    left: 50%;
-    right:50%;
+    left: 200px;
+
   }
   #stackthings2{
     position:relative;
     top: 200px;
-    left: 50%;
-    right:50%;
+    left: 200px;
+    
   }
  }
