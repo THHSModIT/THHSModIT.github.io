@@ -66,17 +66,9 @@ a:hover{
 	margin-left: 10vw;
 }
 
-.indeximage{
-	width:55%;
-	margin-right:2%;
-	float: left;
-}
-.indexparagraph {
-	width:42%;
-	float: left;
-}
-.clearfix{
-	clear:both
+.indexstuff{
+	width:50%;
+	display:inline-block;
 }
 a:hover{
 	background-color: #f7f0f0;
