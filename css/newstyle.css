@@ -59,6 +59,15 @@ a:hover{
 	/*100% 100vh*/
 }
 
+.pythongres{
+	color: #000;
+	position: relative;
+	font-family: Verdana;
+	font-size: 22px;
+	margin-left: 10vw;
+	top: 148px;
+	text-align: center;
+}
 .codingres0{
 	color: #000;
 	position: relative;
