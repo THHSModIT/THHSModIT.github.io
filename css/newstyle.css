@@ -84,27 +84,27 @@ a:hover{background-color: #f7f0f0;color: #000}
 #an{position:absolute; left:40vw; margin-top:-220px}
 #ni{position:absolute; left:69vw; margin-top:-551px}
 .intropara{font-family: Josefin Sans,Arial,sans-serif;font-weight: 200;font-size: 13px;color: #000;position: relative;text-align: center}
-#agpara{}
-#ampara{}
-#sopara{}
-#anpara{}
-#nipara{}
+#agpara{left:-16vw; top:39vh}
+#ampara{left: 17vw;top: 3.5vh}
+#sopara{left: -31vw;top: 30vh}
+#anpara{left: -1vw;top: 6.5vh}
+#nipara{left: 28vw;top: -27vh}
 
 
 @media (max-width: 768px) {
-  #stackthings{
-    position:relative;
-    top: 0px;
-    left: 20%;
+	#stackthings{
+		position:relative;
+		top: 0px;
+		left: 20%;
+	}
+	#stackthings2{
+		position:relative;
+		top: 200px;
+		left: 20%;
+	}
+}
 
-  }
-  #stackthings2{
-    position:relative;
-    top: 200px;
-    left: 20%;
-  }
-  .stackthings3{
-    margin-left:50%
-  }
- }
-
+@media (max-width: 1195px) {
+	#stackthings3{
+	}
+}
