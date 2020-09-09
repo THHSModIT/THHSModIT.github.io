@@ -84,11 +84,11 @@ a:hover{background-color: #f7f0f0;color: #000}
 #an{position:absolute; left:40vw; margin-top:30px}
 #ni{position:absolute; left:69vw; margin-top:-300px}
 .intropara{font-family: Josefin Sans,Arial,sans-serif;font-weight: 200;font-size: 13px;color: #000;position: relative;text-align: center}
-#agpara{left:-16vw; top:39vh}
-#ampara{left: 17vw;top: 3.5vh}
-#sopara{left: -32vw;top: 55vh}
-#anpara{left: -2vw;top: 32vh;}
-#nipara{left: 27vw;top: -1vh}
+#agpara{width:30%;left:-16vw; top:39vh}
+#ampara{width:30%;left: 17vw;top: 3.5vh}
+#sopara{width:25%;left: -32vw;top: 55vh}
+#anpara{width:25%;left: -2vw;top: 32vh;}
+#nipara{width:25%;left: 27vw;top: -1vh}
 
 
 @media (max-width: 768px) {
