@@ -105,6 +105,14 @@ a:hover{background-color: #f7f0f0;color: #000}
 }
 
 @media (max-width: 1195px) {
-	#stackthings3{
-	}
+	.avatarstack{left:50%}
+	#agp{}
+	#amav{top:450px}
+	#amp{top:80vh}
+	#soav{}
+	#sop{}
+	#anav{}
+	#anp{}
+	#niav{}
+	#nip{}
 }
