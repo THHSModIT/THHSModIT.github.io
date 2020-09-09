@@ -70,24 +70,12 @@ a:hover{
 .codingres2{top: 0px; left: 75vwvw;}
 
 
-.indeximg{
-	width:50%;
-	display:block;
-	float:left;
-}
-.indexpara{
-	width:50%;
-	display:block;
-	float:right;
-	background-color:#A2AEBA;
-	overflow:scroll;
-	/*border-style:solid; border-top-size:150px; border-top-color:#A2AEBA; border-bottom-style:solid; border-bottom-size:150px; border-bottom-color:#A2AEBA">*/
-}
-.clearfoot{
-	clear:both;	
-}
+.indeximg{width:50%;display:block;float:left}
+.indexpara{width:50%;display:block;float:right;background-color:#A2AEBA;overflow:scroll/*border-style:solid; border-top-size:150px; border-top-color:#A2AEBA; border-bottom-style:solid; border-bottom-size:150px; border-bottom-color:#A2AEBA">*/}
 
-a:hover{
-	background-color: #f7f0f0;
-	color: #000;
-}
+.clearfoot{clear:both}
+
+a:hover{background-color: #f7f0f0;color: #000}
+
+.avatar{border-radius:50%}
+#ag{left:5vw; top:100vw}
