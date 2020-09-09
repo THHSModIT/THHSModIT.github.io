@@ -47,7 +47,7 @@ a:hover{
 	top: 100px;
 	width: 100%;
 	text-align: center;
-	font-size: 9vw;
+	font-size: 7vw;
 }
 
 #appBackground {
@@ -107,7 +107,7 @@ a:hover{background-color: #f7f0f0;color: #000}
 @media (max-width: 1195px) {
 	.avatarstack{left:50%}
 	.agp{}
-	.amav{top:450px}
+	.amav{top:62%}
 	.amp{top:80vh}
 	.soav{}
 	.sop{}
