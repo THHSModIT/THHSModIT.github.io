@@ -61,12 +61,13 @@ a:hover{
 
 .pythonres{color: #000;position: relative;font-family: Verdana;font-size: 20px;top: 130px;text-align: center;left: 10vw;font-weight: bold; display:inline}
 .javares{color: #000;position: relative;font-family: Verdana;font-size: 20px;margin-left: 46vw;top: -187px;font-weight: bold;text-align: center;display: inline}
+.jsres{color: #000;position: relative;font-family: Verdana;font-size: 20px;margin-left: 60vw;top: -187px;font-weight: bold;text-align: center;display: inline}
 
 .codingres{color:#000;position:relative;font-family:Verdana;font-size: 16px;text-align: center}
 
 .codingres0{top: 124px; left: 10vw;}
 .codingres1{top: -192px;left: 46vw;}
-.codingres2{top: 124px; left: 18vw;}
+.codingres2{top: 124px; left: 60vw;}
 
 
 .indeximg{
