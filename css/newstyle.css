@@ -47,7 +47,7 @@ a:hover{
 	top: 100px;
 	width: 100%;
 	text-align: center;
-	font-size: 11vw;
+	font-size: 9vw;
 }
 
 #appBackground {
@@ -85,3 +85,22 @@ a:hover{background-color: #f7f0f0;color: #000}
 #sopara{}
 #anpara{}
 #nipara{}
+
+
+@media (max-width: 768px) {
+  #stackthings{
+    position:relative;
+    top: 0px;
+    left: 20%;
+
+  }
+  #stackthings2{
+    position:relative;
+    top: 200px;
+    left: 20%;
+  }
+  .stackthings3{
+    margin-left:50%
+  }
+ }
+
