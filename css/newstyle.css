@@ -78,4 +78,5 @@ a:hover{
 a:hover{background-color: #f7f0f0;color: #000}
 
 .avatar{border-radius:50%}
-#ag{left:5vw; top:100vw}
+#ag{margin-left:36%; margin-top:90px }
+#agpara{font-family: Josefin Sans,Arial,sans-serif;font-weight: 200;font-size: 13px;color: #000;position: relative;text-align: center}
