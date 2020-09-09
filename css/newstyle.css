@@ -106,13 +106,13 @@ a:hover{background-color: #f7f0f0;color: #000}
 
 @media (max-width: 1195px) {
 	.avatarstack{left:50%}
-	#agp{}
-	#amav{top:450px}
-	#amp{top:80vh}
-	#soav{}
-	#sop{}
-	#anav{}
-	#anp{}
-	#niav{}
-	#nip{}
+	.agp{}
+	.amav{top:450px}
+	.amp{top:80vh}
+	.soav{}
+	.sop{}
+	.anav{}
+	.anp{}
+	.niav{}
+	.nip{}
 }
