@@ -26,5 +26,16 @@
   margin-top: -700px;
   margin-left: 10px;
 }
+.newimgclass3{
+  top: -70px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  object-fit: cover;
+  margin-top: -700px;
+  margin-left: 10px;
+}
+
 
 
