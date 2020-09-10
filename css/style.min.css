@@ -9,18 +9,17 @@
   font-size:18px
 }
 .newimgclass{
-  /*width: 200px;*/
+  width: 200px;
   height: 200px;
   border-radius: 50%;
   /*margin-left: -500px;*/
   object-fit: cover;
   float: left;
-  width:25%;
   /*margin-top: 50px;*/
 }
 .newimgclass2{
   top: -70px;
-  /*width: 200px;*/
+  width: 200px;
   height: 200px;
   border-radius: 50%;
   position: relative;
@@ -28,11 +27,10 @@
   /*margin-top: -700px;
   margin-left: 220px;*/
   float: left;
-  width:50%;
 }
 .newimgclass3{
   /*top: -70px;*/
-  /*width: 200px;*/
+  width: 200px;
   height: 200px;
   border-radius: 50%;
   position: relative;
@@ -40,7 +38,6 @@
   /*margin-top: -700px;
   margin-left: 40px;*/
   float:right;
-  width:25%;
 }
 
 
