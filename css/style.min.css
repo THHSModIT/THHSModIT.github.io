@@ -18,15 +18,15 @@
   /*margin-top: 50px;*/
 }
 .newimgclass2{
-  top: -70px;
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  position: relative;
+  position: absolute;
   object-fit: cover;
-  /*margin-top: -700px;
-  margin-left: 220px;*/
-  float: left;
+  margin: auto;
+  left: 50%;
+  top: 130vh;
+  margin-left: -5em;
 }
 .newimgclass3{
   /*top: -70px;*/
