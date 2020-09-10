@@ -78,7 +78,7 @@ a:hover{
 a:hover{background-color: #f7f0f0;color: #000}
 
 .avatar{border-radius:50%}
-#ag{position:absolute; left:-20%; margin-top:90px}
+#ag{position:relative; left:-20%; margin-top:90px}
 #am{position:absolute; left:58vw; margin-top:-250px}
 #so{position:absolute; left:10vw; top: 900px}
 #an{position:absolute; left:40vw; margin-top:30px}
