@@ -9,19 +9,20 @@
   font-size:18px
 }
 .newimgclass{
-  width:200px;
-  height:200px;
-  border-radius:50%;
-  left:400px;
-  object-fit: cover
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: -500px;
+  object-fit: cover;
 }
 .newimgclass2{
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  position: absolute;
+  position: relative;
   object-fit: cover;
   margin-top: -250px;
+  margin-left: 10px;
 }
 
 
