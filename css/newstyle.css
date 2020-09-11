@@ -126,4 +126,7 @@ a:hover{background-color: #f7f0f0;color: #000}
 .sonianamesandtitle{left:-20vw}
 
 #resourcetable{background-color:#000; border-color:#000}
+td{
+	border-color:#000;
+}
 
