@@ -130,3 +130,15 @@ td{
 	border-color:#000;
 }
 
+.extratable {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+}
+.extracell{
+  border: 1px solid #000;
+  width: 150px;
+}
+.extracell+.extracell {
+  width: auto;
+}
