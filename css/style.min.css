@@ -40,5 +40,22 @@
   float:right;
 }
 
+#newindexwrapper{
+  width:700px;
+  clear:both;
+}
 
+#firstwelcome {
+  
+  width:200px;
+  float:left;
+}
+#secondwelcome {
+  
+  width:300px;
+  float:right;
+}
+#row{
+  display:table-row;
+}
 
