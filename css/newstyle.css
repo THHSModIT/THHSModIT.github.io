@@ -139,6 +139,9 @@ td{
   border: 1px solid #000;
   width: 150px;
 }
-.extracell+.extracell {
+.extra2cell{  
+  width:100px;
+}
+.extracell+.extra2cell {
   width: auto;
 }
