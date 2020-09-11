@@ -13,3 +13,8 @@ a:hover{
   color: #000 !important;
   background-color: #fbfbfb !important;
 }
+.cellwithpara{
+  vertical-align:top;
+  font-size:24;
+  font-style: italic;
+}
