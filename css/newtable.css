@@ -6,6 +6,7 @@ td, th{
 
 .newtablecl{
   color: #000;
+  text-decoration: underline;
 }
 
 a:hover{
