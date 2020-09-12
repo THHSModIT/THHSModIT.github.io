@@ -84,7 +84,7 @@ a:hover{background-color: #f7f0f0;color: #000}
 #an{position:absolute; left:40vw; margin-top:30px}
 #ni{position:absolute; left:69vw; margin-top:-300px}
 
-.intropara{font-family: Josefin Sans,Arial,sans-serif;font-weight: 200;font-size: 13px;color: #000;position: relative;text-align: center}
+.intropara{font-family: "Josefin Sans","Arial",sans-serif;font-weight: 200;font-size: 13px;color: #000;position: relative;text-align: center}
 #agpara{width:30%;left:15vw; top:4vh}
 #ampara{width:30%;left: 59vw;top: 55.5vh;position: absolute}
 #sopara{width: 25%;left: 7vw;top: 135vh;position: absolute}
@@ -92,8 +92,8 @@ a:hover{background-color: #f7f0f0;color: #000}
 #nipara{width:25%;left: 27vw;top: -1vh}
 
 
-.inames{color:#000; font-family: Verdana, Arial, sans-serif}
-.btitles{color:#000; font-family: Verdana, Arial, sans-serif}
+.inames{color:#000; font-family: "Verdana", "Arial", sans-serif}
+.btitles{color:#000; font-family: "Verdana", "Arial", sans-serif}
 
 .agathenamesandtitle{left:-20vw}
 .amandanamesandtitle{left:-20vw}
@@ -103,3 +103,4 @@ a:hover{background-color: #f7f0f0;color: #000}
 .newthing{background-color:#fbfbfb;color:#000;text-align:center}
 .newhead{background-color:#fbfbfb;color:#000;text-align:center}
 .newthing2{background-color:#000;color:#fff;text-align:center}
+.newthing3{background-color:#000;color:#fff;text-align:center;font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;font-size: 12px; font-weight: 100}
