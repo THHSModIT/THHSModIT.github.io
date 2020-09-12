@@ -92,32 +92,6 @@ a:hover{background-color: #f7f0f0;color: #000}
 #nipara{width:25%;left: 27vw;top: -1vh}
 
 
-@media (max-width: 768px) {
-	#stackthings{
-		position:relative;
-		top: 0px;
-		left: 20%;
-	}
-	#stackthings2{
-		position:relative;
-		top: 200px;
-		left: 20%;
-	}
-}
-
-@media (max-width: 1195px) {
-	.avatarstack{left:50%; text-align: center;}
-	.agp{}
-	.amav{}
-	.amp{top:80vh}
-	.soav{}
-	.sop{}
-	.anav{}
-	.anp{}
-	.niav{}
-	.nip{}
-}
-
 .inames{color:#000; font-family: Verdana, Arial, sans-serif}
 .btitles{color:#000; font-family: Verdana, Arial, sans-serif}
 
@@ -145,3 +119,53 @@ td{
 .extracell+.extra2cell {
   width: auto;
 }
+
+
+@media 
+only screen and (max-width: 950px) {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	.hideme{
+        	display: none;
+    	}
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+
+    td:nth-of-type(1):before { content: "Python"; }
+	td:nth-of-type(2):before { content: "Java"; }
+	td:nth-of-type(3):before { content: "Javascript"; }
+	td:nth-of-type(4):before { content: "Python"; }
+	td:nth-of-type(5):before { content: "Java"; }
+	td:nth-of-type(6):before { content: "Javascript"; }
+	td:nth-of-type(7):before { content: "Python"; }
+	td:nth-of-type(8):before { content: "Java"; }
+	td:nth-of-type(9):before { content: "GPA"; }
+
