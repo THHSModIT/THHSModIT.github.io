@@ -59,5 +59,7 @@
   display:table-row;
 }
 #contactimg{
-  background:url(/laurent-peignault-MTJxRri1UiI-unsplash.jpg)
+  background:url(/laurent-peignault-MTJxRri1UiI-unsplash.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
 }
