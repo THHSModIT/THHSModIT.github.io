@@ -136,14 +136,14 @@ only screen and (max-width: 950px) {
 		left: -9999px;
 	}
 	
-	tr { border: 1px solid #ccc; }
+	tr { border: 1px solid #fbfbfb; }
 	.hideme{
         	display: none;
     	}
 	td { 
 		/* Behave  like a "row" */
 		border: none;
-		border-bottom: 1px solid #eee; 
+		border-bottom: 1px solid #fbfbfb; 
 		position: relative;
 		padding-left: 50%; 
 	}
