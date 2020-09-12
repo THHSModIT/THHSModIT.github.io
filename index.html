@@ -15,6 +15,43 @@
 		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
 		<link rel="icon" href="/favicon.ico" type="image/x-icon"/>
 		<meta name="theme-color" content="#444" />
+		
+		<style>
+			* {
+			    box-sizing: border-box;
+			}
+
+			/* Container for flexboxes */
+			.row {
+			    display: flex;
+			    flex-wrap: wrap;
+			}
+			
+			a:hover{
+				text-decoration:underline;	
+			}
+
+			/* Create four equal columns */
+			.column {
+			    flex: 25%;
+			    padding: 20px;
+			    background-color: #fbfbfb;
+			}
+
+			/* On screens that are 992px wide or less, go from four columns to two columns */
+			@media screen and (max-width: 992px) {
+			    .column {
+				flex: 50%;
+			    }
+			}
+
+			/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+			@media screen and (max-width: 600px) {
+			    .row {
+				flex-direction: column;
+			    }
+			}
+    		</style>
 	</head>
 
 	<body class="frontpage">
