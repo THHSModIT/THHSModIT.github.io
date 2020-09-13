@@ -12,8 +12,9 @@
 
 #welcomepara{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	font-size: 19px;
+	font-size: 24px;
 	color: #5e5958;
+	width:63%;
 }
 
 .center{
